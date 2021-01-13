@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.test_main_page",
+    "children" : [ {
+      "name" : "Пользователь может осуществить поиск (failed)",
+      "uid" : "ed19fbb2daeaa862",
+      "parentUid" : "a5f398ff82aac9db35b872a35712a13a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1608193851297,
+        "stop" : 1608193851297,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Пользователь может осуществить поиск",
+      "uid" : "4918ab8d3e271240",
+      "parentUid" : "a5f398ff82aac9db35b872a35712a13a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1608193851297,
+        "stop" : 1608193851297,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.test_main_page"
+  } ]
+}

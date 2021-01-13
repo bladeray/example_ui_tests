@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-4VE46VG",
+    "children" : [ {
+      "name" : "19104-MainThread",
+      "children" : [ {
+        "name" : "Пользователь может осуществить поиск (failed)",
+        "uid" : "ed19fbb2daeaa862",
+        "parentUid" : "a5834c8552e3a419847e5ad3c49a14b9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608193851297,
+          "stop" : 1608193851297,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a5834c8552e3a419847e5ad3c49a14b9"
+    }, {
+      "name" : "18808-MainThread",
+      "children" : [ {
+        "name" : "Пользователь может осуществить поиск",
+        "uid" : "4918ab8d3e271240",
+        "parentUid" : "f74766ec3d70545ddde9a49e79974fc7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608193851297,
+          "stop" : 1608193851297,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f74766ec3d70545ddde9a49e79974fc7"
+    } ],
+    "uid" : "41b944615c428c4ee43e4dc7e05b5be0"
+  } ]
+}

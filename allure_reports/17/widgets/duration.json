@@ -1,0 +1,21 @@
+[ {
+  "uid" : "3d6cb2569ca3fa6d",
+  "name" : "Пользователь может осуществить поиск",
+  "time" : {
+    "start" : 1608647413068,
+    "stop" : 1608647415487,
+    "duration" : 2419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34bde5cfab49b004",
+  "name" : "Пользователь может осуществить поиск (failed)",
+  "time" : {
+    "start" : 1608647413081,
+    "stop" : 1608647416157,
+    "duration" : 3076
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

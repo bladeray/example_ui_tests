@@ -1,0 +1,47 @@
+{
+    "chrome": {
+        "default": "84.0",
+        "versions": {
+            "83.0": {
+                "image": "selenoid/chrome:83.0",
+                "port": "4444",
+                "path": "/"
+            },
+            "84.0": {
+                "image": "selenoid/chrome:84.0",
+                "port": "4444",
+                "path": "/"
+            }
+        }
+    },
+    "firefox": {
+        "default": "78.0",
+        "versions": {
+            "77.0": {
+                "image": "selenoid/firefox:77.0",
+                "port": "4444",
+                "path": "/wd/hub"
+            },
+            "78.0": {
+                "image": "selenoid/firefox:78.0",
+                "port": "4444",
+                "path": "/wd/hub"
+            }
+        }
+    },
+    "opera": {
+        "default": "69.0",
+        "versions": {
+            "68.0": {
+                "image": "selenoid/opera:68.0",
+                "port": "4444",
+                "path": "/"
+            },
+            "69.0": {
+                "image": "selenoid/opera:69.0",
+                "port": "4444",
+                "path": "/"
+            }
+        }
+    }
+}

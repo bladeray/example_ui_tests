@@ -1,0 +1,140 @@
+{
+  "7aaa128148c91fa43eff8f01ef4bf52b" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "f2659af3c1311a7a",
+      "reportUrl" : "../18/index.html#testresult/f2659af3c1311a7a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: МТС - связь и экосистема цифровых сервисов failed is not presented in result number 0",
+      "time" : {
+        "start" : 1608647413081,
+        "stop" : 1608647416157,
+        "duration" : 3076
+      }
+    }, {
+      "uid" : "34bde5cfab49b004",
+      "reportUrl" : "../17/index.html#testresult/34bde5cfab49b004",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: МТС - связь и экосистема цифровых сервисов failed is not presented in result number 0",
+      "time" : {
+        "start" : 1608647413081,
+        "stop" : 1608647416157,
+        "duration" : 3076
+      }
+    }, {
+      "uid" : "125525cc6801424c",
+      "reportUrl" : "../16/index.html#testresult/125525cc6801424c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: МТС - связь и экосистема цифровых сервисов failed is not presented in result number 0",
+      "time" : {
+        "start" : 1608647413081,
+        "stop" : 1608647416157,
+        "duration" : 3076
+      }
+    }, {
+      "uid" : "74c0ca0b2e994a31",
+      "reportUrl" : "../15/index.html#testresult/74c0ca0b2e994a31",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000118BAB7C160>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+      "time" : {
+        "start" : 1608646680866,
+        "stop" : 1608646680866,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "83b501389d436ba2",
+      "reportUrl" : "../14/index.html#testresult/83b501389d436ba2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: МТС - связь и экосистема цифровых сервисов failed is not presented in result number 0",
+      "time" : {
+        "start" : 1608194044768,
+        "stop" : 1608194048980,
+        "duration" : 4212
+      }
+    }, {
+      "uid" : "ed19fbb2daeaa862",
+      "reportUrl" : "../13/index.html#testresult/ed19fbb2daeaa862",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000271C0006EB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+      "time" : {
+        "start" : 1608193851297,
+        "stop" : 1608193851297,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8dc9707043572ab9df1754ba765d30ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "5feab96f9321dc4e",
+      "reportUrl" : "../18/index.html#testresult/5feab96f9321dc4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608647413068,
+        "stop" : 1608647415487,
+        "duration" : 2419
+      }
+    }, {
+      "uid" : "3d6cb2569ca3fa6d",
+      "reportUrl" : "../17/index.html#testresult/3d6cb2569ca3fa6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608647413068,
+        "stop" : 1608647415487,
+        "duration" : 2419
+      }
+    }, {
+      "uid" : "bc7fb6fee54b062a",
+      "reportUrl" : "../16/index.html#testresult/bc7fb6fee54b062a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608647413068,
+        "stop" : 1608647415487,
+        "duration" : 2419
+      }
+    }, {
+      "uid" : "e224e0e3ee35ade6",
+      "reportUrl" : "../15/index.html#testresult/e224e0e3ee35ade6",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017A082CC100>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+      "time" : {
+        "start" : 1608646680866,
+        "stop" : 1608646680866,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "29d724d55ed37a78",
+      "reportUrl" : "../14/index.html#testresult/29d724d55ed37a78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608194044778,
+        "stop" : 1608194048978,
+        "duration" : 4200
+      }
+    }, {
+      "uid" : "4918ab8d3e271240",
+      "reportUrl" : "../13/index.html#testresult/4918ab8d3e271240",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DF09109F10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+      "time" : {
+        "start" : 1608193851297,
+        "stop" : 1608193851297,
+        "duration" : 0
+      }
+    } ]
+  }
+}

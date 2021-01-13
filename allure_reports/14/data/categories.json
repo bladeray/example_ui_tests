@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: МТС - связь и экосистема цифровых сервисов failed is not presented in result number 0",
+      "children" : [ {
+        "name" : "Пользователь может осуществить поиск (failed)",
+        "uid" : "83b501389d436ba2",
+        "parentUid" : "efdd53f8d89c5344848967f29f0d0daa",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608194044768,
+          "stop" : 1608194048980,
+          "duration" : 4212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "efdd53f8d89c5344848967f29f0d0daa"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

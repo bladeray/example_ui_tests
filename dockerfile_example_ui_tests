@@ -1,0 +1,10 @@
+FROM python:latest
+
+MAINTAINER Yakhin Dinis
+
+COPY . /example_ui_tests
+WORKDIR /example_ui_tests
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+CMD tail -f /dev/null

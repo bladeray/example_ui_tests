@@ -1,0 +1,63 @@
+version: '3.5'
+
+services:
+  selenoid:
+    container_name: selenoid
+    image: aerokube/selenoid:1.10.0
+    volumes:
+      - "./config:/etc/selenoid"
+      - "./work/selenoid/video:/opt/selenoid/video"
+      - "./work/selenoid/logs:/opt/selenoid/logs"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    environment:
+      - OVERRIDE_VIDEO_OUTPUT_DIR=work/selenoid/video
+    command: ["-conf", "/etc/selenoid/browsers.json", "-video-output-dir",
+              "/opt/selenoid/video", "-log-output-dir", "/opt/selenoid/logs"]
+    ports:
+      - "4444:4444"
+    network_mode: bridge
+
+  chrome-image:
+    container_name: chrome_image
+    image: selenoid/chrome:84.0
+
+  firefox_image:
+    container_name: firefox_image
+    image: selenoid/firefox:78.0
+
+  opera_image:
+    container_name: opera_image
+    image: selenoid/opera:69.0
+
+  selenoid-ui:
+    container_name: selenoid-ui
+    image: aerokube/selenoid-ui:1.10.0
+    network_mode: bridge
+    links:
+      - selenoid
+    ports:
+      - "8080:8080"
+    command: ["--selenoid-uri", "http://selenoid:4444"]
+
+  tests:
+    container_name: tests
+    build:
+      context: .
+      dockerfile: dockerfile_example_ui_tests
+    volumes:
+      - "./allure_results:/example_ui_tests/allure_results"
+      - "./screenshots:/example_ui_tests/screenshots"
+    network_mode: host
+
+  allure:
+    container_name: allure
+    image: "frankescobar/allure-docker-service"
+    environment:
+      CHECK_RESULTS_EVERY_SECONDS: 1
+      KEEP_HISTORY: 1
+    ports:
+      - "5050:5050"
+    volumes:
+      - "./allure_results:/app/allure-results"
+      - "./allure_reports:/app/default-reports"
+

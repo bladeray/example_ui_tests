@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_main_page",
+      "children" : [ {
+        "name" : "Пользователь может осуществить поиск",
+        "uid" : "3d6cb2569ca3fa6d",
+        "parentUid" : "53dc9839f0ae196392ca488e17f7beec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608647413068,
+          "stop" : 1608647415487,
+          "duration" : 2419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Пользователь может осуществить поиск (failed)",
+        "uid" : "34bde5cfab49b004",
+        "parentUid" : "53dc9839f0ae196392ca488e17f7beec",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608647413081,
+          "stop" : 1608647416157,
+          "duration" : 3076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "53dc9839f0ae196392ca488e17f7beec"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ]
+}

@@ -1,0 +1,44 @@
+{
+  "8dc9707043572ab9df1754ba765d30ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4918ab8d3e271240",
+      "reportUrl" : "../13/index.html#testresult/4918ab8d3e271240",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DF09109F10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+      "time" : {
+        "start" : 1608193851297,
+        "stop" : 1608193851297,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7aaa128148c91fa43eff8f01ef4bf52b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed19fbb2daeaa862",
+      "reportUrl" : "../13/index.html#testresult/ed19fbb2daeaa862",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000271C0006EB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+      "time" : {
+        "start" : 1608193851297,
+        "stop" : 1608193851297,
+        "duration" : 0
+      }
+    } ]
+  }
+}

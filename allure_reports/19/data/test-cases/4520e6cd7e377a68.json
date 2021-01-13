@@ -1,0 +1,211 @@
+{
+  "uid" : "4520e6cd7e377a68",
+  "name" : "Пользователь может осуществить поиск (failed)",
+  "fullName" : "tests.test_main_page#test_guest_can_go_to_checkout_failed",
+  "historyId" : "7aaa128148c91fa43eff8f01ef4bf52b",
+  "time" : {
+    "start" : 1608194044768,
+    "stop" : 1608194048980,
+    "duration" : 4212
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: МТС - связь и экосистема цифровых сервисов failed is not presented in result number 0",
+  "statusTrace" : "browser = <selenium.webdriver.remote.webdriver.WebDriver (session=\"853f501017d65022dedf493e6bbdb6db\")>\npage = <pages.main_page.MainPage object at 0x000002A3DC5692E0>\n\n    @allure.title('Пользователь может осуществить поиск (failed)')\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_guest_can_go_to_checkout_failed(browser, page):\n        with allure.step('Ввод запроса и нажатие кнопки \"Поиск в Google\"'):\n            page.enter_search_query(\"МТС\")\n            page.click_search_button()\n        with allure.step('Проверка, что первый результат соответствует ожиданиям'):\n            results_page = ResultsPage(browser, links.MAIN_PAGE)\n>           results_page.should_has_result_with_correct_title(0, \"МТС - связь и экосистема цифровых сервисов failed\")\n\ntests\\test_main_page.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pages.results_page.ResultsPage object at 0x000002A3DC637BE0>\nresult_number = 0\nresult_title = 'МТС - связь и экосистема цифровых сервисов failed'\n\n    def should_has_result_with_correct_title(self, result_number, result_title):\n>       assert self.browser.find_elements(*ResultPageLocators.RESULTS)[result_number].text.find(result_title) != -1, f\"{result_title} is not presented in result number {result_number}\"\nE       AssertionError: МТС - связь и экосистема цифровых сервисов failed is not presented in result number 0\n\npages\\results_page.py:7: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "page",
+    "time" : {
+      "start" : 1608194042306,
+      "stop" : 1608194044758,
+      "duration" : 2452
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываем https://www.google.com/",
+      "time" : {
+        "start" : 1608194042306,
+        "stop" : 1608194044758,
+        "duration" : 2452
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1608194036189,
+      "stop" : 1608194036387,
+      "duration" : 198
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1608194036388,
+      "stop" : 1608194042306,
+      "duration" : 5918
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Запускаем браузер",
+      "time" : {
+        "start" : 1608194036388,
+        "stop" : 1608194042064,
+        "duration" : 5676
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: МТС - связь и экосистема цифровых сервисов failed is not presented in result number 0",
+    "statusTrace" : "browser = <selenium.webdriver.remote.webdriver.WebDriver (session=\"853f501017d65022dedf493e6bbdb6db\")>\npage = <pages.main_page.MainPage object at 0x000002A3DC5692E0>\n\n    @allure.title('Пользователь может осуществить поиск (failed)')\n    @allure.severity(allure.severity_level.NORMAL)\n    def test_guest_can_go_to_checkout_failed(browser, page):\n        with allure.step('Ввод запроса и нажатие кнопки \"Поиск в Google\"'):\n            page.enter_search_query(\"МТС\")\n            page.click_search_button()\n        with allure.step('Проверка, что первый результат соответствует ожиданиям'):\n            results_page = ResultsPage(browser, links.MAIN_PAGE)\n>           results_page.should_has_result_with_correct_title(0, \"МТС - связь и экосистема цифровых сервисов failed\")\n\ntests\\test_main_page.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pages.results_page.ResultsPage object at 0x000002A3DC637BE0>\nresult_number = 0\nresult_title = 'МТС - связь и экосистема цифровых сервисов failed'\n\n    def should_has_result_with_correct_title(self, result_number, result_title):\n>       assert self.browser.find_elements(*ResultPageLocators.RESULTS)[result_number].text.find(result_title) != -1, f\"{result_title} is not presented in result number {result_number}\"\nE       AssertionError: МТС - связь и экосистема цифровых сервисов failed is not presented in result number 0\n\npages\\results_page.py:7: AssertionError",
+    "steps" : [ {
+      "name" : "Ввод запроса и нажатие кнопки \"Поиск в Google\"",
+      "time" : {
+        "start" : 1608194044769,
+        "stop" : 1608194048003,
+        "duration" : 3234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка, что первый результат соответствует ожиданиям",
+      "time" : {
+        "start" : 1608194048003,
+        "stop" : 1608194048978,
+        "duration" : 975
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: МТС - связь и экосистема цифровых сервисов failed is not presented in result number 0\n",
+      "statusTrace" : "  File \"C:\\example_ui_tests\\tests\\test_main_page.py\", line 36, in test_guest_can_go_to_checkout_failed\n    results_page.should_has_result_with_correct_title(0, \"МТС - связь и экосистема цифровых сервисов failed\")\n  File \"C:\\example_ui_tests\\pages\\results_page.py\", line 7, in should_has_result_with_correct_title\n    assert self.browser.find_elements(*ResultPageLocators.RESULTS)[result_number].text.find(result_title) != -1, f\"{result_title} is not presented in result number {result_number}\"\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1608194049623,
+      "stop" : 1608194051684,
+      "duration" : 2061
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Закрываем браузер",
+      "time" : {
+        "start" : 1608194051615,
+        "stop" : 1608194051684,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "40a41eb594ec2bdb",
+      "name" : "test_guest_can_go_to_checkout_failed",
+      "source" : "40a41eb594ec2bdb.png",
+      "type" : "image/png",
+      "size" : 296796
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_main_page"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-4VE46VG"
+  }, {
+    "name" : "thread",
+    "value" : "16656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4520e6cd7e377a68.json",
+  "parameterValues" : [ ]
+}

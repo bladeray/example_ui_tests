@@ -1,0 +1,213 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-4VE46VG",
+    "children" : [ {
+      "name" : "4360-MainThread",
+      "children" : [ {
+        "name" : "Пользователь может осуществить поиск",
+        "uid" : "c717839cb085a069",
+        "parentUid" : "ff99111162b21e23886e34a23abdc9c8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608193946343,
+          "stop" : 1608193946343,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff99111162b21e23886e34a23abdc9c8"
+    }, {
+      "name" : "16656-MainThread",
+      "children" : [ {
+        "name" : "Пользователь может осуществить поиск (failed)",
+        "uid" : "70bd819878d78c6b",
+        "parentUid" : "4af139718ccd25ea1a3cb7a2df386bf5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608194044768,
+          "stop" : 1608194048980,
+          "duration" : 4212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4af139718ccd25ea1a3cb7a2df386bf5"
+    }, {
+      "name" : "3616-MainThread",
+      "children" : [ {
+        "name" : "Пользователь может осуществить поиск (failed)",
+        "uid" : "fa8c0fd3ae9dbf07",
+        "parentUid" : "2cf4776d1af3d36d0f977a1f5af595d6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608646680866,
+          "stop" : 1608646680866,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2cf4776d1af3d36d0f977a1f5af595d6"
+    }, {
+      "name" : "19104-MainThread",
+      "children" : [ {
+        "name" : "Пользователь может осуществить поиск (failed)",
+        "uid" : "e5a5963822675594",
+        "parentUid" : "a5834c8552e3a419847e5ad3c49a14b9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608193851297,
+          "stop" : 1608193851297,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a5834c8552e3a419847e5ad3c49a14b9"
+    }, {
+      "name" : "16832-MainThread",
+      "children" : [ {
+        "name" : "Пользователь может осуществить поиск",
+        "uid" : "e24104b6066ac60",
+        "parentUid" : "778ceb0c66a611f4b40e2259f4af44ed",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608646176354,
+          "stop" : 1608646176354,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "778ceb0c66a611f4b40e2259f4af44ed"
+    }, {
+      "name" : "1276-MainThread",
+      "children" : [ {
+        "name" : "Пользователь может осуществить поиск (failed)",
+        "uid" : "eed2bea0d6a7159e",
+        "parentUid" : "8397d01e57592ab116f83823301bea23",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608193946343,
+          "stop" : 1608193946343,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8397d01e57592ab116f83823301bea23"
+    }, {
+      "name" : "2360-MainThread",
+      "children" : [ {
+        "name" : "Пользователь может осуществить поиск (failed)",
+        "uid" : "f2659af3c1311a7a",
+        "parentUid" : "a4943ed5de39ea88e538aaec817453f7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608647413081,
+          "stop" : 1608647416157,
+          "duration" : 3076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a4943ed5de39ea88e538aaec817453f7"
+    }, {
+      "name" : "13456-MainThread",
+      "children" : [ {
+        "name" : "Пользователь может осуществить поиск",
+        "uid" : "9eb2e9088c787185",
+        "parentUid" : "ed8c9e45629843e761ede244cb84a073",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608646680866,
+          "stop" : 1608646680866,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ed8c9e45629843e761ede244cb84a073"
+    }, {
+      "name" : "14028-MainThread",
+      "children" : [ {
+        "name" : "Пользователь может осуществить поиск",
+        "uid" : "4248189dc284af02",
+        "parentUid" : "3d5a80a8cedee3817b07e9672faed4ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608194044778,
+          "stop" : 1608194048978,
+          "duration" : 4200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3d5a80a8cedee3817b07e9672faed4ad"
+    }, {
+      "name" : "2228-MainThread",
+      "children" : [ {
+        "name" : "Пользователь может осуществить поиск (failed)",
+        "uid" : "572a9cde494e5a78",
+        "parentUid" : "3f5fb504348985d1da8791d93a3b9005",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608646176354,
+          "stop" : 1608646176354,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f5fb504348985d1da8791d93a3b9005"
+    }, {
+      "name" : "17112-MainThread",
+      "children" : [ {
+        "name" : "Пользователь может осуществить поиск",
+        "uid" : "5feab96f9321dc4e",
+        "parentUid" : "6d78a34efead6f9bf83489fb780f8209",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608647413068,
+          "stop" : 1608647415487,
+          "duration" : 2419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d78a34efead6f9bf83489fb780f8209"
+    }, {
+      "name" : "18808-MainThread",
+      "children" : [ {
+        "name" : "Пользователь может осуществить поиск",
+        "uid" : "e3749dceaf643379",
+        "parentUid" : "f74766ec3d70545ddde9a49e79974fc7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608193851297,
+          "stop" : 1608193851297,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f74766ec3d70545ddde9a49e79974fc7"
+    } ],
+    "uid" : "41b944615c428c4ee43e4dc7e05b5be0"
+  } ]
+}

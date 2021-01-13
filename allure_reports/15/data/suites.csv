@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Tue Dec 22 14:18:00 UTC 2020","Tue Dec 22 14:18:00 UTC 2020","0","tests","test_main_page","","","","Пользователь может осуществить поиск (failed)",""
+"broken","Tue Dec 22 14:18:00 UTC 2020","Tue Dec 22 14:18:00 UTC 2020","0","tests","test_main_page","","","","Пользователь может осуществить поиск",""

@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000271C0006EB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+      "children" : [ {
+        "name" : "Пользователь может осуществить поиск (failed)",
+        "uid" : "ed19fbb2daeaa862",
+        "parentUid" : "7bbfb52c1ebb128d8a1162f034b735b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608193851297,
+          "stop" : 1608193851297,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7bbfb52c1ebb128d8a1162f034b735b2"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DF09109F10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))",
+      "children" : [ {
+        "name" : "Пользователь может осуществить поиск",
+        "uid" : "4918ab8d3e271240",
+        "parentUid" : "ee4e1c8b2b65921baa94a69a75b06411",
+        "status" : "broken",
+        "time" : {
+          "start" : 1608193851297,
+          "stop" : 1608193851297,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ee4e1c8b2b65921baa94a69a75b06411"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
